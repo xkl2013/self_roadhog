@@ -1,6 +1,6 @@
 {
   "name": "man-webpack",
-  "version": "2.5.2",
+  "version": "1.1.1",
   "description": "Cli tool for creating react apps, configurable version of create-react-app.",
   "bin": {
     "man-webpack": "./bin/roadhog.js"
