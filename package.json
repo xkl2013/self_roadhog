@@ -1,5 +1,5 @@
 {
-  "name": "roadhog",
+  "name": "self_roadhog",
   "version": "2.4.9",
   "description": "Cli tool for creating react apps, configurable version of create-react-app.",
   "bin": {
