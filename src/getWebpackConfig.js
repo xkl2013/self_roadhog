@@ -8,15 +8,12 @@ const isDev = process.env.NODE_ENV === 'development';
 
 export default function(opts = {}) {
   const { cwd, config, babel, paths, entry } = opts;
-
   const browserslist = config.browserslist || defaultBrowsers;
   debug(`babel: ${babel}`);
   debug(`browserslist: ${browserslist}`);
-
   return getConfig({
     cwd,
     ...config,
-
     entry: getEntry({
       cwd: paths.appDirectory,
       entry: entry || config.entry,
